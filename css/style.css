@@ -58,7 +58,7 @@ html {
 /* hero */
 
 .hero{
-  background: #000;
+  background: #111111;
   text-align: center;
 }
 
@@ -499,19 +499,33 @@ html {
     font-size: 25px;
   }
 
+  .hero .top_image{
+    width: 73%;
+    margin: 0 auto;
+  }
+  .hero ul img{
+    width: 73%;
+    margin-inline: auto;
+  }
 
 
   .hero ul li{
     font-size: 24px;
-    width: max-content;
     margin: 0 auto;
-    margin-bottom: 20px;
     padding: 3px 12px;
 
   }
+  .hero .image_btn{
+
+    width: 70%;
+
+  }
+  .hero ul li{
+    width: 70%;
+  }
+  
   .image_btn{
     width: 250px;
-    margin-top: 15px;
   }
 
 
@@ -520,26 +534,71 @@ html {
     padding-right: 20px;
   }
 
-
-
-
-
-
-
-
-  .how_work .top_Sec h3{
-    font-size: 30px;
-    margin-bottom: 15px;
+  .doctor .top_doctor .imp p{
+    font-size: 2.4vw;
   }
-  .how_work .top_Sec .text{
-    padding-top: 30px;
+  .doctor .top_doctor .imp{
+    width: max-content;
+    margin-top: 50px;
+  }
+  .doctor .top_doctor h1{
+    margin-bottom: 10px;
+    padding-right: 0;
+  }
+  .doctor .top_doctor h4{
+    line-height: 1.6;
+    padding-right: 0;
+  }
+  .doctor .top_doctor .text{
+    text-align: center;
   }
 
+  .doctor .btm_doctor .text_top p{
+    font-size: 3.4vw;
+
+  }
+
+
+
+
+
+
+
+  .how_work .top_Sec p{
+    font-size: 35px;
+  }
+
+  .how_work .top_Sec img{
+    width: 80%;
+  }
+
+  .how_work .top_Sec h3 {
+    font-size: 35px;
+  }
+  .how_work .btm_work .p_border{
+    width: max-content;
+    margin: 10px auto 20px;
+    padding: 10px 15px 0;
+  }
   .how_work .btm_work p{
-    font-size: 3.5vw;
+    font-size: 22px;
+
   }
 
+  .result .top_res h1{
+    font-size: 50px;
+  }
+  .result .top_res h4{
+    font-size: 23px;
+  }
+  .result .top_cont p{
+    font-size: 3.7vw;
+  }
 
+  .result .content{
+    width: 75%;
+    margin: 0 auto;
+  }
 
 
 
@@ -595,6 +654,13 @@ html {
     width: 80%;
   }
 
+  .last_sec .footer .boxs .box img{
+    height: 30px;
+  }
+  .last_sec .footer .boxs .box .img2{
+    height: 30px;
+  }
+
 }
 
 @media (min-width:710px) {
@@ -618,21 +684,61 @@ html {
   .hero{
     width: 50%;
   }
-
-  .hero ul li{
-    font-size: 26px;
+  .result{
+    width: 50%;
+  }
+  .doctor{
+    width: 50%;
   }
 
+  .hero ul li{
+    font-size: 20px;
+  }
+
+  .result .top_cont p{
+    font-size: 1.8vw;
+  }
+  .result .top_cont{
+    margin-bottom: 25px;
+    margin-top: 20px;
+  }
+  .result .top_cont.right{
+    margin-bottom: 25px;
+  }
+
+  .result .image_btn{
+    margin-top: 10px;
+  }
 
 
 
 
   
 
+  .doctor .top_doctor h1{
+    font-size: 30px;
+  }
+  .doctor .top_doctor h4{
+    font-size: 30px;
+  }
+  .doctor .top_doctor .imp p{
+    font-size: 14px;
+    line-height: 1.7;
+  }
+  .doctor .top_doctor .imp img{
+    width: 50px;
+  }
 
+  .doctor .btm_doctor .text_top p{
+    font-size: 18px;
+  }
+  .doctor .btm_doctor .text_top{
+    margin-top: 30px;
+  }
 
-
-
+  .doctor .image_btn{
+    margin-top: 50px;
+  }
 
 
 
@@ -649,7 +755,6 @@ html {
   }
   .how_work .btm_work p{
     font-size: 18px;
-    margin-bottom: 10px;
   }
   .how_work .top_Sec p{
     font-size: 30px;
@@ -777,9 +882,10 @@ html {
     width: 70%;
     margin: 0 auto;
   }
-  .hero ul li{
-    margin-bottom: 10px;
+  .doctor .top_doctor .imp p{
+    font-size: 17px;
   }
+
 
   .last_sec .div_form form{
     width: 500px;
@@ -802,8 +908,7 @@ html {
   }
 
   .how_work .btm_work p{
-    font-size: 24px;
-    margin-bottom: 15px;
+    font-size: 20px;
   }
   .last_sec .div_form .text_price_img{
     margin-right: 90px;
@@ -819,7 +924,7 @@ html {
 
 /* Thanks Page */
 body.thanks_page_page{
-  background: url(../img/thanks2.webp);
+  background: url(../img/thanks22.webp);
   background-size: cover;
   background-position: center;
   min-height: 100vh;
@@ -845,13 +950,11 @@ body.thanks_page_page{
   padding: 5px 30px;
   font-size: 20px;
   color: #fff;
-  background: linear-gradient(to left , #000 ,#2e2e2e );
-  color: #EB6728;
+  background: linear-gradient(to left , #C44F13 ,#EB6728 );
   width: max-content;
   border-radius: 10px;
   margin: 0 auto 20px;
-
-  box-shadow: 5px 5px 12px #1b1b1be6;
+  box-shadow: 5px 5px 12px #1b1b1b8e;
 }
 
 .thanks_page .text img{
