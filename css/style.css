@@ -479,14 +479,14 @@ html {
 
 
 .last_sec .footer .boxs .box img{
-  height: 22px;
+  height: 24px;
   width: auto;
 }
 .last_sec .footer .boxs .box .img2{
-  height: 20px;
+  height: 24px;
 }
 .last_sec .footer .boxs .box p{
-  font-size: 2.2vw;
+  font-size: 2.4vw;
   line-height: 1.5;
   color: #0C0C0C;
 }
